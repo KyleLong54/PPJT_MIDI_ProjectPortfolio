@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>PPJT MIDI</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PPJT MIDI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Requirements
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./technologies.html">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./technicalApproach.html">Technical Approach</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./risks.html">Risks and Challenges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./bugs.html">Bugs and Issues</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="text-center mt-5">
+        <h1>Requirements</h1>
+    </div>
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="mb-5">Functional Requirements</h3>
+
+                <h5 class="mb-2">Upload</h5>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item">As a user, I would like to upload MIDI files so that I can play them
+                        back.</li>
+                    <li class="list-group-item">As a user, I would like to upload files from my local file system so
+                        that I can work with the files I have saved on my device.</li>
+                    <li class="list-group-item">As a user, I would like to only see MIDI files in my file system while
+                        uploading so that it is easier to find the file I am looking for and I do not upload the
+                        incorrect one.</li>
+                    <li class="list-group-item">As a system/application, I would like to just allow MIDI files to be
+                        uploaded so that a file is not uploaded that I cannot play back.</li>
+                    <li class="list-group-item">As a system/application, I would like to limit uploaded files to be 50
+                        KB and lower so that a file is not too long or large when it is uploaded.</li>
+                    <li class="list-group-item">As a user, I would like to be notified when a file is too large to
+                        upload so that I have adequate information about the issue and I can choose another file.</li>
+                </ul>
+
+                <h5 class="mb-2">Playback</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">As a user, I would like to be able to play, pause, and stop playback so
+                        that I have control over the playback.</li>
+                    <li class="list-group-item">As a user, I would like to be able to skip to a measure in the song so
+                        that I do not have to wait for the playback to reach that point of the song.</li>
+                    <li class="list-group-item">As a user, I would like to be able to set the time signature and bpm for
+                        a song so that the speed of the song can be changed if needed.</li>
+                    <li class="list-group-item">As a user, I would like to be able to add labels to measures in a song
+                        so that I do not have to remember which measures contain the point of the song I want to jump
+                        to.</li>
+                    <li class="list-group-item">As a user, I would like to jump to the labels that I have created so
+                        that the labelled points are convenient to get to.</li>
+                    <li class="list-group-item">As a user, I would like to save any bpm or time signature changes
+                        locally so that when I open the file again my changes are still there.</li>
+                    <li class="list-group-item">As a user, I would like to save the labels I create locally so that the
+                        labels I create persist when I open the file again.</li>
+                    <li class="list-group-item">As a user, I would like to view where the playback is within the
+                        displayed measures so that I can follow which part of the track is playing.</li>
+                    <li class="list-group-item">As a user, I would like my label titles to be limited to 25 characters
+                        so that I can fit multiple on-screen.</li>
+                    <li class="list-group-item">As a user, I would like to be notified when I try to add a label with a
+                        title over 25 characters so that I have adequate information about the issue and I can choose
+                        another title.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="mb-3">Non-Functional Requirements</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">As a user, I would like the application to run without the internet so that I can rehearse (and run the application) in places that do not have internet access.</li>
+                    <li class="list-group-item">As a system/application, I would like to run entirely using local files so that an internet connection is not needed for the application to be run.</li>
+                  </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<script>
+    // fetch('navbar.html')
+    //     .then(res => res.text())
+    //     .then(data => {
+    //         document.getElementById('navbar-placeholder').innerHTML = data;
+    //     });
+</script>
+
+</html>

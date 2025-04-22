@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>PPJT MIDI</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PPJT MIDI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./requirements.html">Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./technologies.html">Technologies
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./technicalApproach.html">Technical Approach</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./risks.html">Risks and Challenges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./bugs.html">Bugs and Issues</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="text-center mt-5">
+        <h1>Technologies</h1>
+    </div>
+
+    <section class="container my-5">
+        <div class="col-12">
+            <h3 class="mb-5">Technologies Used</h3>
+        </div>
+
+        <!-- Technologies - row 1 -->
+        <div class="row justify-content-evenly">
+            <!-- Vue.js -->
+            <div class="col-md-3">
+                <div class="card bg-secondary mb-4" >
+                    <img src="./assets/Vue.js_Logo.png" class="img-fluid" alt="Vue.js Logo">
+                    <div class="card-body">
+                        <h4 class="card-title">Vue.js</h4>
+                        <p class="card-text">This project was built using Vue.js. Vue was recommended to me by my
+                            professor, as it is a modern and popular JavaScript web development framework. I really
+                            enjoyed working in Vue, the way the code is organized, and its simplicity.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tone.js -->
+            <div class="col-md-3">
+                <div class="card bg-secondary mb-4" >
+                    <img src="./assets/Tone.js_Logo.png" class="img-fluid" alt="Tone.js Logo">
+                    <div class="card-body">
+                        <h4 class="card-title">Tone.js</h4>
+                        <p class="card-text">Tone.js is a JavaScript library that can translate MIDI events into tones.
+                            This means that, without any extra hardware, a web application that uses this library can
+                            natively play MIDI files. I was also recommended this library, this time by a graduated
+                            student that my professor got me in touch with.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technologies - row 2 -->
+        <div class="row justify-content-evenly">
+            <!-- JavaScript -->
+            <div class="col-md-3">
+                <div class="card bg-secondary mb-4" style="max-width: 20rem;">
+                    <img src="./assets/JavaScript_Logo.png" class="img-fluid" alt="JavaScript Logo">
+                    <div class="card-body">
+                        <h4 class="card-title">JavaScript</h4>
+                        <p class="card-text">JavaScript was used throughout the project, as it was created with
+                            JavaScript libraries and frameworks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Node and NPM -->
+            <div class="col-md-3">
+                <div class="card bg-secondary mb-4" style="max-width: 20rem;">
+                    <img src="./assets/Node.js_Logo.png" class="img-fluid" alt="Node.js Logo">
+                    <div class="card-body">
+                        <h4 class="card-title">Node</h4>
+                        <p class="card-text">Vue.js runs using Node.js. I used Node.js and the Node Package Manager
+                            during the development. These were used for running the application for testing and
+                            development, building the project to be pushed as a release, and installing the required
+                            packages for development.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jira -->
+            <div class="col-md-3">
+                <div class="card bg-secondary mb-4" style="max-width: 20rem;">
+                    <img src="./assets/Jira_Logo.png" class="img-fluid" alt="Jira Logo">
+                    <div class="card-body">
+                        <h4 class="card-title">Jira</h4>
+                        <p class="card-text">To manage my workflow and to help track my tasks for each sprint, I used
+                            Jira. Each iteration of the project was treated as a sprint, and all tasks that needed to be
+                            completed were put into the sprint. Each week, a burndown chart was created, showing the
+                            pace of the work compared to the time left in the sprint.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="mb-3">Technologies Learned</h3>
+                <p>
+                    Other than JavaScript, I had to learn each of the above technologies for this project. I had never
+                    worked in a JavaScript framework before starting this project, including Vue.js. Vue.js requires
+                    Node.js, which I had never used, so I learned the Node Package Manager and Node for this project. I
+                    had worked in Agile sprints before, but never performing any tracking with Jira. Also, as I had
+                    never created a MIDI application before, I had to learn Tone.js and how to work with MIDI files in
+                    the code.
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<script>
+    // fetch('navbar.html')
+    //     .then(res => res.text())
+    //     .then(data => {
+    //         document.getElementById('navbar-placeholder').innerHTML = data;
+    //     });
+</script>
+
+</html>
