@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <title>PPJT MIDI</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PPJT MIDI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./requirements.html">Requirements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./technologies.html">Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./technicalApproach.html">Technical Approach</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./risks.html">Risks and Challenges
+                <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./outstandingIssues.html">Bugs and Issues</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="text-center mt-5">
+    <h1>Risks and Challenges</h1>
+  </div>
+
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mb-3">Risk Management Plan</h3>
+        <p>
+          During the planning portion of the project, I came up with a risk management plan. I listed out each potential risk, what steps were needed to mitigate each, the consequences if the risk became an issue, and a backup plan if the risks worsened. Then, I made sure to complete the tasks that I outlined for each risk to make sure that it did not become an issue. Thanks to this plan and work, none of the risks became issues.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mb-3">Risks</h3>
+      </div>
+
+      <div class="col-12">
+        <h5 class="mb-2">Research MIDI Files</h5>
+        <p>While I had a slight understanding of MIDI files before working on the project, I had never built anything that used MIDI files. I had never seen what a MIDI file looked like, the structure of the file, or what data was stored by it. I did some research about the file format before writing any code, so I understood how to work with the files before starting.</p>
+      </div>
+
+      <div class="col-12">
+        <h5 class="mb-2">JavaScript Refresher</h5>
+        <p>At the beginning of this project, it had been a year and a half since I had written any JavaScript code, since that was when I took my last JavaScript class. To make sure that I remembered the syntax and features of the language, I looked over some JavaScript tutorials to refresh my memory and prepare for making an application.</p>
+      </div>
+
+      <div class="col-12">
+        <h5 class="mb-2">Determine and Learn MIDI JavaScript Library</h5>
+        <p>I had never worked with MIDI files in code before, so I had to determine a library that could play and work with them. I found a few that seemed promising: Tone.js and WEBMIDI.js. Both could read MIDI events, but there was a key difference. Tone.js could generate tones that corresponded to MIDI notes. This means that MIDI files could be played directly in the browser, and that a MIDI keyboard could be played using only the browser. Also, I had Tone.js recommended to me by a graduated student who used it in the past. Before making the choice, I made proof of concepts with both libraries and looked at code examples. Tone.js seemed to have more features needed for the project that WEBMIDI.js did not have, so the choice was not very difficult.</p>
+      </div>
+
+      <div class="col-12">
+        <h5 class="mb-2">Determine and Learn JavaScript Frontend Framework</h5>
+        <p>I had never used a JavaScript framework for frontend development. While talking about the project with my professor, he recommended that I use Vue.js, as he had heard great things about it. I made some proof of concepts using Vue.js and read some tutorials, and decided to use it for the project. It ended up being a great solution, as I really enjoyed the framework's organization and simplicity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mb-3">Challenges</h3>
+        <p>
+          Most of the challenge came from all of the learning that was required to complete the project. I had to learn libraries, frameworks, tools, and more. As the project went on, I found better ways to, for example, create Vue components or utilize Tone.js to load and play MIDI files, thanks to research about various issues I was having during the project. I was able to complete the project's development, despite the various challenges.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+<script>
+  // fetch('navbar.html')
+  //     .then(res => res.text())
+  //     .then(data => {
+  //         document.getElementById('navbar-placeholder').innerHTML = data;
+  //     });
+</script>
+
+</html>
