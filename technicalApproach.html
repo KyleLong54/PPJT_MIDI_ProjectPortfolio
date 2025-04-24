@@ -29,7 +29,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Technical Approach
-                <span class="visually-hidden">(current)</span>
+              <span class="visually-hidden">(current)</span>
             </a>
           </li>
           <li class="nav-item">
@@ -47,12 +47,26 @@
     <h1>Technical Approach</h1>
   </div>
 
+  <!-- Architecture Overview -->
   <section class="container my-5">
     <div class="row">
       <div class="col-12">
         <h3 class="mb-3">Architecture Overview</h3>
+      </div>
+    </div>
+
+    <div class="row justify-content-evenly">
+      <div class="col-md-5 mb-3 mb-md-0">
+        <img src="./assets/CST-452 Final Block Diagram.png" class="img-fluid"
+          alt="Anchitecture Block Diagram (explained below)">
+      </div>
+      <div class="col-md-5 mb-3">
         <p>
-          
+          The application is built with a Vue.js frontend, which is a JavaScript framework. To load and play MIDI files
+          and handle notes played, the application uses Tone.js, which is a JavaScript library that can work with MIDI
+          events and files. Vue applications run on the Node JavaScript runtime. This allows the application to run in
+          the browser, which runs on the user's computer. If the user desires, they can plug in their MIDI keyboard to
+          play notes that will be played in the browser.
         </p>
       </div>
     </div>
@@ -61,10 +75,15 @@
   <section class="container my-5">
     <div class="row">
       <div class="col-12">
-        <h3 class="mb-3">Design Diagrams</h3>
-        <p>
-          
-        </p>
+        <h3 class="mb-5">Design Diagrams</h3>
+        <div class="mb-5">
+          <h5>Physical Solution Diagram</h5>
+          <img src="./assets/CST-452 Final Block Diagram.png" class="img-fluid" alt="Physical Solution Diagram">
+        </div>
+        <div class="mb-5">
+          <h5>Logical Solution Diagram</h5>
+          <img src="./assets/Kyle Long Capstone Final Logical Solution.png" class="img-fluid" alt="Logical Solution Diagram">
+        </div>
       </div>
     </div>
   </section>
@@ -74,7 +93,7 @@
       <div class="col-12">
         <h3 class="mb-3">Development Patterns</h3>
         <p>
-          
+          To manage this project, I followed the Agile Scrum methodology. Each development portion in the class, which lasted a few weeks, was the length of the next sprint. I had all of the tasks for the project tracked in Jira, and I tracked each sprint's progress using a burn-down chart, which I generated each week. This meant that I could make sure I was completing tasks on time and keeping on track. At the end of each development portion, I would generate a test plan, and test every feature that I developed. This was to ensure that the work I was completing was correct and accurate.
         </p>
       </div>
     </div>
